@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane style="-fx-background-color: green;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.example.labo11.HelloController">
+    <children>
+        <Button fx:id="btnSortByName" layoutX="14.0" layoutY="14.0" text="Ordenar por nombre" />
+        <Button fx:id="btnSortBySalary" layoutX="150.0" layoutY="14.0" text="Ordenar por salario" />
+        <ListView fx:id="lvEmployees" layoutX="14.0" layoutY="50.0" prefHeight="400.0" prefWidth="400.0" />
+    </children>
+</AnchorPane>
